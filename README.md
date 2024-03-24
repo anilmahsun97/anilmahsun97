@@ -78,7 +78,7 @@ Wordpress'i başarılı şekilde kurduktan sonra backup aşamasına geçiyoruz.
 
 ## Sitenin Backup'ını Alma
 
-**sudo mkdir /var/backup/db :** İlk başta backup diye bir klasör oluşturuyoruz.
+**sudo mkdir /var/backup/db :** İlk başta Backup diye bir klasör oluşturuyoruz.
 
 **sudo crontab -e :** Crontab -e komutuyla da Cron'a giriş yapıyoruz. Peki Cron nedir ve nasıl kullanılır ?
 
@@ -88,7 +88,7 @@ Wordpress'i başarılı şekilde kurduktan sonra backup aşamasına geçiyoruz.
 
 **30 18 * * * rm /home/sydtesting/tmp/*:** Örneğin bu komutta tmp dosyalarını /home/sydtesting/tmp konumundan her gün 18.30’da silecektir.
 
-**53 21 * * * cd /home/anilmahsun/backup && tar -cpzf backup$(date +\%Y\%m\%d).tar.gz /var/www/html/ && mysqldump -u root -p 123456 --all-databases --master-data | gzip > backup$(date +\%Y\%m\%d).sql.gz :** Yazdığımız bu komut ile her gün 21:53te sistem otomatik olarak backup'ını almış oluyor.
+**53 21 * * * cd /home/anilmahsun/backup && tar -cpzf backup$(date +\%Y\%m\%d).tar.gz /var/www/html/ && mysqldump -u root -p 123456 --all-databases --master-data | gzip > backup$(date +\%Y\%m\%d).sql.gz :** Yazdığımız bu komut ile her gün 21:53'te sistem otomatik olarak Backup'ını almış oluyor.
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/a1c03da3-4b33-480a-a14b-6ba0fcf04dce" width="810" height="570">
 
