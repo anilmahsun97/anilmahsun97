@@ -121,3 +121,51 @@ https://medium.com/@edanur.yanik.mhnds/cron-job-nedir-f3cc57d3ee02
 https://www.youtube.com/watch?v=z35ZPELo5_Y
 
 https://www.youtube.com/watch?v=vZjAhjqLakU
+
+---
+---
+---
+
+## PERFORMANS TESTİNİ ARTIRMAK İÇİN YAPILAN ADIMLAR ##
+
+**1.**  İlk önce sistemi güncelliyoruz.
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/6d0fe895-6ac1-4060-a476-fdcacd94157c" width="810" height="570">
+
+**2.**  Nginx'te statik içerik önbelleğe alma süresini değiştiriyoruz.
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/a7dd36a1-9307-473d-9369-0a11ed68b786" width="810" height="570">
+
+**3.**  Arabellek boyutunu ayarlıyoruz.
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/1d2bc0c0-a6fa-480c-bda2-0b0b1fe02b83" width="810" height="570">
+
+**4.**  Zaman aşımlarını azaltıyoruz. Zaman aşımları Nginx performansını önemli ölçüde artırır.
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/5a2f65be-e6a7-4207-a9d5-2542d227389e" width="810" height="570">
+
+**5.**  systcl.conf dosyasında değerleri artırıyoruz.
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/76d6c7cc-5c82-467c-926d-ce0ae17aefdb" width="810" height="570">
+
+### Performans testini çalıştırıyoruz.
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/c503fb84-4778-403b-865a-6360640432ab" width="810" height="570">
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/21a28eca-3733-41dc-a478-beb0e3b6a0cb" width="810" height="570">
+
+# Kaynakça: 
+
+https://sysopstechnix.com/7-tips-for-nginx-performance-tuning/
+
+https://github.com/hugapi/hug/issues/625
+
+https://www.baeldung.com/linux/error-too-many-open-files
+
+https://cs.uwaterloo.ca/~brecht/servers/openfiles.html
+
+https://gist.github.com/denji/8359866
+
+https://wordpress.org/plugins/redis-cache/
+
+https://medium.com/@khushalbisht/improving-wordpress-performance-with-nginx-b1535bc9e2b7
