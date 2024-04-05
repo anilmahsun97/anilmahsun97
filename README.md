@@ -169,3 +169,42 @@ https://gist.github.com/denji/8359866
 https://wordpress.org/plugins/redis-cache/
 
 https://medium.com/@khushalbisht/improving-wordpress-performance-with-nginx-b1535bc9e2b7
+
+---
+---
+---
+
+## MANAGEIQ ##
+
+# MANAGEIQ KURULUMU #
+
+**1.** sudo systemctl start docker : Bu komut ile docker'ı çalıştırıyoruz.
+
+**2.** docker pull manageiq/manageiq:petrosian-1 : Bu komut ile cihazı indiriyoruz ve dağıtıyoruz.
+
+**3.** docker run -d -p 8443:443 manageiq/manageiq:petrosian-1 : Bu komut ile çalıştırıyoruz.
+
+Sonrasında **Google Cloud**'da hesap açıyoruz. (1)
+
+Buradan da Compute Engine -> Images -> Create Image diyip yeni bir görüntü oluşturuyoruz. (2-3)
+
+Sonra burada oluşturduğumuz örnekleri görebiliyoruz. (4)
+
+Artık ManageIQ arayüzüne giriş yapabiliriz. (5)
+
+Giriş : admin
+Şifre: smartvm
+
+Seçenekleri değiştiriyoruz. Bölge,saat dilimi,şirket adı vs... (6)
+
+Görsel seçenekleri ayarlıyoruz. (7)
+
+E-posta sunucumuzu ManageIQ'ye bize e-posta gönderebilmesi için ekliyoruz. (8)
+
+Buradan sonra Google Cloud'daki projemiz için JSON anahtarı oluşturuyoruz. (9-10-11)
+
+Sonrasında Google Cloud'u ManageIQ'ye ekliyoruz. (12)
+
+ManageIQ sağlayıcıyı yeniliyoruz. (13)
+
+Burada bulut sağlayıcılarımızı görebiliyoruz. (14)
