@@ -174,9 +174,9 @@ https://medium.com/@khushalbisht/improving-wordpress-performance-with-nginx-b153
 ---
 ---
 
-## MANAGEIQ ##
+# MANAGEIQ #
 
-# MANAGEIQ KURULUMU #
+## MANAGEIQ KURULUMU ##
 
 **1.** sudo systemctl start docker : Bu komut ile docker'ı çalıştırıyoruz.
 
