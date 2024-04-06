@@ -255,31 +255,84 @@ ManageIQ, hibrit IT ortamlarını yönetebileceğimiz açık kaynak kodlu bir ya
 
 ## MANAGEIQ KULLANIMI ##
 
-**MANAGEIQ'ye giriş yaptığımızda bizi "Overview Dashboard" sayfasına getirir. Bu sayfada ortamınızda gerçekleşen olayları,raporlarınızı ve konfigürasyonunu yaptığınız alarmlarınızı görebilirsiniz.** (1)
+**MANAGEIQ'ye giriş yaptığımızda bizi "Overview Dashboard" sayfasına getirir. Bu sayfada ortamınızda gerçekleşen olayları,raporlarınızı ve konfigürasyonunu yaptığınız alarmlarınızı görebilirsiniz.**
 
-**“Overview > Reports” sekmesinden kullanılabilir olan raporları görebilirsiniz.** (2)
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/88857bba-83c8-40d6-b0dc-5d2ddf4d0ba4" width="810" height="570">
 
-**“Overview > Chargeback” sekmesi sayesinde organizasyon veya sistemin sahipliğine göre sanal makine kullanımını ücretlendirebilirsiniz.** (3)
+**“Overview > Reports” sekmesinden kullanılabilir olan raporları görebilirsiniz.**
 
-**"Services > My Services" sekmesinde servislerimizi görüyoruz.** (4)
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/ed0eaf8a-a33b-4050-85f8-81d93e975211" width="810" height="570">
 
-**"Services > Catalog" sekmesinde Kullanıcıların iş akışlarını tek bir tıklamayla sipariş etmelerine olanak sağlamak için self servis kataloglar oluşturabiliriz.** (5)
+**"Services > My Services" sekmesinde servislerinizi görebilirsiniz.**
 
-**"Services > Workloads" sekmesinden sanal makinelerimizi durdurabilir,baştabilir veya silebiliriz.** (6)
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/45117a1f-32eb-4903-bc82-8674ad6bd5f3" width="810" height="570">
 
-**"Services > Request" sekmesinden istek oluşturabiliyoruz.** (7)
+**"Services > Catalog" sekmesinde kullanıcıların iş akışlarını tek bir tıklamayla sipariş etmelerine olanak sağlamak için self servis kataloglar oluşturabilirsiniz.**
 
-**"Compute > Clouds" sekmesinden sağlayıcılarımızı ekleyebilir ve onlar hakkında bir çok bilgiye (Erişilebilirlik alanları,bulut birimleri,bulut ağları...) erişebiliriz.** (8,9)
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/a7240453-6fbd-455c-bbff-8389e6e826d0" width="810" height="570">
 
-**"Compute > İnsfrastrucre" sekmesinden yeni alt yapı sağlayıcıları ekleyebilir,sanal makineler ve şablonlarını görebilir,veri depoları indirebilir,anahtarlar indirebilirsiniz.** (10)
+**"Services > Workloads" sekmesinden sanal makinelerinizi durdurabilir,baştabilir veya silebilirsiniz.**
 
-**"Network" sekmesinden sağlayıcıların ağ özetlerini,alt ağları ve özelliklerini,ağ bağlantı noktalarını ve daha bir çok ağla alakalı bilgiye erişebilirsiniz.**(11,12,13)
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/fa43039d-617f-42a4-a9dc-0e5b904466d1" width="810" height="570">
 
-**"Storage" sekmesinden yeni depolama yöneticisi ekleyebilir,bulut birimlerinin boyutlarını görebilir ve depolamayla alakalı bir çok bilgiye erişebilirsiniz.** ((14,15)
+**"Services > Request" sekmesinden istek oluşturabilirsiniz.**
 
-**"Automation" sekmesinden otomasyon yöneticilerini görebilir,otomasyonla alakalı tüm ayarlamaları buradan yapabilirsiniz.** (16,17)
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/014f87b5-335a-4350-a2a9-916821f9be25" width="810" height="570">
 
-**"Control" sekmesinden politika profillerini görebilir,bilgilerini görebilirsiniz. Koşullar ekleyebilirsiniz.** (18,19)
+**"Compute > Clouds" sekmesinden sağlayıcılarımızı ekleyebilir ve onlar hakkında bir çok bilgiye (Erişilebilirlik alanları,bulut birimleri,bulut ağları...) erişebilirsiniz.**
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/55eaa069-1cd6-45c4-bf21-29d2281bc903" width="810" height="570">
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/0fe547fb-3bba-44de-9de9-9a2df9840ccc" width="810" height="570">
+
+**"Compute > İnsfrastrucre" sekmesinden yeni alt yapı sağlayıcıları ekleyebilir,sanal makineler ve şablonlarını görebilir,veri depoları indirebilir,anahtarlar indirebilirsiniz.**
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/f7447f8e-0f5e-4d38-a3e9-b639a7616d12" width="810" height="570">
+
+**"Network" sekmesinden sağlayıcıların ağ özetlerini,alt ağları ve özelliklerini,ağ bağlantı noktalarını ve daha bir çok ağla alakalı bilgiye erişebilirsiniz.**
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/e1d959a9-8cf5-497c-b5cb-83e21d76fd16" width="810" height="570">
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/53aab499-5ba8-49d7-8385-f8eaf759f00c" width="810" height="570">
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/92739803-d1a0-42b9-ae58-2ddfc796734f" width="810" height="570">
+
+**"Storage" sekmesinden yeni depolama yöneticisi ekleyebilir,bulut birimlerinin boyutlarını görebilir ve depolamayla alakalı bir çok bilgiye erişebilirsiniz.**
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/a911ef6a-5b64-4b42-8283-6964d5aac135" width="810" height="570">
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/e681abae-b362-434b-a872-2ee5eb1146c1" width="810" height="570">
+
+**"Automation" sekmesinden otomasyon yöneticilerini görebilir,otomasyonla alakalı tüm ayarlamaları buradan yapabilirsiniz.**
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/105f7ef4-74c2-4480-893b-85de0be389eb" width="810" height="570">
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/e48118dc-8730-47e8-b009-216b32e2989b" width="810" height="570">
+
+**"Control" sekmesinden politika profillerini görebilir,bilgilerini görebilirsiniz. Koşullar ekleyebilirsiniz.**
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/9856f810-0236-451a-b95b-499e07d44b35" width="810" height="570">
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/48c8f76a-95f8-45b3-93be-8f69239a3c7f" width="810" height="570">
+
+**"Settings" sekmesinden ayarlarla alakalı her şeyi yapabilirsiniz. Saat dilimi,rapor sayıları,şirket ismi... gibi. Dokümantasyon kısmına gidip bir çok bilgiye erişebilirsiniz.**
+
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/a3700e54-0dc0-49a0-af25-08d1547feb89" width="810" height="570">
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/c01dc3d5-f910-4a50-91ef-ae94dd60d082" width="810" height="570">
+<img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/b09afa37-ffee-40cb-a803-17ee0cc2fe32" width="810" height="570">
+
+# Kaynakça: 
+
+https://www.manageiq.org/docs/get-started/index.html
+
+https://github.com/orgs/ManageIQ/discussions
+
+https://console.cloud.google.com/welcome/new?project=ancient-edition-419012
+
+https://stackoverflow.com/questions/39100641/docker-service-start-failed
+
+https://asiyeyigit.com/manageiq/
+
+https://stackoverflow.com/questions/46068451/why-docker-cant-start-or-starting-forever
+
+https://stackoverflow.com/questions/tagged/docker
+
+
+
 
 
 
