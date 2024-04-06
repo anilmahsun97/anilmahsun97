@@ -176,6 +176,10 @@ https://medium.com/@khushalbisht/improving-wordpress-performance-with-nginx-b153
 
 # MANAGEIQ #
 
+## MANAGEIQ NEDİR ? ##
+
+ManageIQ, hibrit IT ortamlarını yönetebileceğimiz açık kaynak kodlu bir yazılımdır. Sanal Sistemler, bulut ortamları, konteyner yapılar gibi pek çok farklı ortamı destekler. ManageIQ ile ortamınızı sürekli olarak izleyebilir, son kullanıcılarınıza self-servis oluşturabilir, regülasyonların uygulanmasını sağlayabilir, ortamın performans ve kullanımını verimli hale getirebilirsiniz.
+
 ## MANAGEIQ KURULUMU ##
 
 **1. sudo systemctl start docker :** Bu komut ile docker'ı çalıştırıyoruz.
@@ -184,20 +188,20 @@ https://medium.com/@khushalbisht/improving-wordpress-performance-with-nginx-b153
 
 **3. docker run -d -p 8443:443 manageiq/manageiq:petrosian-1 :** Bu komut ile çalıştırıyoruz.
 
-Sonrasında **Google Cloud**'da hesap açıyoruz.
+**Sonrasında Google Cloud'da hesap açıyoruz.**
   
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/89dd3a08-2e47-419f-902d-7d8181fce21a" width="810" height="570">
 
-Buradan da Compute Engine -> Images -> Create Image deyip yeni bir görüntü oluşturuyoruz.
+**Buradan da Compute Engine -> Images -> Create Image deyip yeni bir görüntü oluşturuyoruz.**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/b744b83b-07d6-4655-8703-3990b42ccb72" width="810" height="570">
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/5655b5f4-26df-40ad-9693-fa101abbf316" width="810" height="570">
 
-Sonra burada oluşturduğumuz örnekleri görebiliyoruz.
+**Sonra burada oluşturduğumuz örnekleri görebiliyoruz.**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/7ef5bdf2-7ad2-4321-a9c0-367c0fe77435" width="810" height="570">
 
-Artık ManageIQ arayüzüne giriş yapabiliriz.
+**Artık ManageIQ arayüzüne giriş yapabiliriz.**
 
 **Giriş : admin**
 
@@ -205,19 +209,19 @@ Artık ManageIQ arayüzüne giriş yapabiliriz.
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/05e7ee39-ae0a-46a4-818e-cec478ec51b2" width="810" height="570">
 
-Seçenekleri değiştiriyoruz. Bölge,saat dilimi,şirket adı vs...
+**Seçenekleri değiştiriyoruz. Bölge,saat dilimi,şirket adı vs...**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/ee7b0d7b-e7f9-4e3d-b5c5-0f1c06f913e5" width="810" height="570">
 
-Görsel seçenekleri ayarlıyoruz.
+**Görsel seçenekleri ayarlıyoruz.**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/ccc7db1d-1677-417d-be16-3526762f2d67" width="810" height="570">
 
-E-posta sunucumuzu ManageIQ'ye bize e-posta gönderebilmesi için ekliyoruz.
+**E-posta sunucumuzu ManageIQ'ye bize e-posta gönderebilmesi için ekliyoruz.**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/f4bd055e-c730-4b17-874c-eacdadefd231" width="810" height="570">
 
-Buradan sonra Google Cloud'daki projemiz için JSON anahtarı oluşturuyoruz.
+**Buradan sonra Google Cloud'daki projemiz için JSON anahtarı oluşturuyoruz.**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/9c1f9dcd-94c6-48d9-a069-5cb6a47e4ca7" width="810" height="570">
 
@@ -225,27 +229,57 @@ Buradan sonra Google Cloud'daki projemiz için JSON anahtarı oluşturuyoruz.
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/92f47520-34ae-46cc-b9bf-bfb254474ac4" width="810" height="570">
 
-Sonrasında Google Cloud'u ManageIQ'ye ekliyoruz.
+**Sonrasında Google Cloud'u ManageIQ'ye ekliyoruz.**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/0239c61e-f4fd-4290-b5a8-334d268004f5" width="810" height="570">
 
-ManageIQ sağlayıcıyı yeniliyoruz.
+**ManageIQ sağlayıcıyı yeniliyoruz.**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/c2ebbb42-0967-4a93-879e-9add3db0410f" width="810" height="570">
 
-Burada bulut sağlayıcılarımızı görebiliyoruz.
+**Burada bulut sağlayıcılarımızı görebiliyoruz.**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/d060e65b-514a-4601-bef4-a868c6e6fbef" width="810" height="570">
 
-Burada doldurmamız gereken maddeler var: E-mail,isim,çevre,özellikler(Bulut sunucusu ve disk boyutu) gibi maddeleri dolduruyoruz.
+**Burada doldurmamız gereken maddeler var: E-mail,isim,çevre,özellikler(Bulut sunucusu ve disk boyutu) gibi maddeleri dolduruyoruz.**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/c0b82c0e-33d2-40b0-a140-fbbb3fe0bae2" width="810" height="570">
 
-Burada aşamalardan geçip geçmediğini görebiliyoruz:
+**Burada aşamalardan geçip geçmediğini görebiliyoruz:**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/5e1a59e8-d996-47f1-9e5a-f119f6d4cc56" width="810" height="570">
 
-Buradaki oturumu kapatıp self servis arayüzüne bakalım. Burası daha basit bir tasarıma sahiptir.
+**Buradaki oturumu kapatıp self servis arayüzüne bakalım. Burası daha basit bir tasarıma sahiptir.**
 
 <img src="https://github.com/anilmahsun97/anilmahsun97/assets/98519922/a10fad0b-64b2-4275-944e-d3f8d37d2dca" width="810" height="570">
+
+## MANAGEIQ KULLANIMI ##
+
+**MANAGEIQ'ye giriş yaptığımızda bizi "Overview Dashboard" sayfasına getirir. Bu sayfada ortamınızda gerçekleşen olayları,raporlarınızı ve konfigürasyonunu yaptığınız alarmlarınızı görebilirsiniz.** (1)
+
+**“Overview > Reports” sekmesinden kullanılabilir olan raporları görebilirsiniz.** (2)
+
+**“Overview > Chargeback” sekmesi sayesinde organizasyon veya sistemin sahipliğine göre sanal makine kullanımını ücretlendirebilirsiniz.** (3)
+
+**"Services > My Services" sekmesinde servislerimizi görüyoruz.** (4)
+
+**"Services > Catalog" sekmesinde Kullanıcıların iş akışlarını tek bir tıklamayla sipariş etmelerine olanak sağlamak için self servis kataloglar oluşturabiliriz.** (5)
+
+**"Services > Workloads" sekmesinden sanal makinelerimizi durdurabilir,baştabilir veya silebiliriz.** (6)
+
+**"Services > Request" sekmesinden istek oluşturabiliyoruz.** (7)
+
+**"Compute > Clouds" sekmesinden sağlayıcılarımızı ekleyebilir ve onlar hakkında bir çok bilgiye (Erişilebilirlik alanları,bulut birimleri,bulut ağları...) erişebiliriz.** (8,9)
+
+**"Compute > İnsfrastrucre" sekmesinden yeni alt yapı sağlayıcıları ekleyebilir,sanal makineler ve şablonlarını görebilir,veri depoları indirebilir,anahtarlar indirebilirsiniz.** (10)
+
+**"Network" sekmesinden sağlayıcıların ağ özetlerini,alt ağları ve özelliklerini,ağ bağlantı noktalarını ve daha bir çok ağla alakalı bilgiye erişebilirsiniz.**(11,12,13)
+
+**"Storage" sekmesinden yeni depolama yöneticisi ekleyebilir,bulut birimlerinin boyutlarını görebilir ve depolamayla alakalı bir çok bilgiye erişebilirsiniz.** ((14,15)
+
+**"Automation" sekmesinden otomasyon yöneticilerini görebilir,otomasyonla alakalı tüm ayarlamaları buradan yapabilirsiniz.** (16,17)
+
+**"Control" sekmesinden politika profillerini görebilir,bilgilerini görebilirsiniz. Koşullar ekleyebilirsiniz.** (18,19)
+
+
 
